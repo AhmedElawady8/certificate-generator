@@ -47,8 +47,8 @@ button:disabled{opacity:.6;cursor:wait}
 .cert .b2{position:absolute;inset:36px;border:1.5px solid #b8923a}
 .cert .b3{position:absolute;inset:44px;border:1px solid #c9d6ec}
 .cert .corner{position:absolute;width:110px;height:110px}
-.cert .c-tl{left:30px;top:30px}.cert .c-tr{right:30px;top:30px;transform:scaleX(-1)}
-.cert .c-bl{left:30px;bottom:30px;transform:scaleY(-1)}.cert .c-br{right:30px;bottom:30px;transform:scale(-1,-1)}
+.cert .c-tl{left:30px;top:30px}.cert .c-tr{right:30px;top:30px}
+.cert .c-bl{left:30px;bottom:30px}.cert .c-br{right:30px;bottom:30px}
 .cert .content{position:absolute;inset:60px 90px 52px;display:flex;flex-direction:column;align-items:center;text-align:center}
 .label{font-size:17px;letter-spacing:7px;font-weight:600;color:#b8923a;margin-top:6px}
 .orn{display:flex;align-items:center;gap:10px;margin:10px 0 2px}
@@ -106,17 +106,17 @@ button:disabled{opacity:.6;cursor:wait}
   <div id="fit"><div id="scaler">
    <div class="cert" id="cert">
     <div class="b1"></div><div class="b2"></div><div class="b3"></div>
-    <svg class="wm" viewBox="-100 -100 200 200" fill="none" stroke="rgba(15,37,71,.07)" stroke-width="1"><circle r="95"/><circle r="80"/><circle r="64" stroke-dasharray="2 4"/><path d="M0-60L14-18 58-18 22 8 36 50 0 24-36 50-22 8-58-18-14-18z" fill="rgba(184,146,58,.08)" stroke="none"/></svg>
-    <svg class="dc l" style="top:236px;height:56px" viewBox="0 0 88 56" fill="none" stroke="#b8923a" stroke-width="2.5"><path d="M44 6L4 22l40 16 40-16z" fill="#0f2547"/><path d="M20 30v14c14 10 34 10 48 0V30" fill="#fff"/><path d="M82 24v20"/><circle cx="82" cy="47" r="3" fill="#b8923a"/></svg>
-    <svg class="dc l" style="top:344px;height:64px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.5"><path d="M44 12C32 4 16 4 4 8v44c12-4 28-4 40 4 12-8 28-8 40-4V8C72 4 56 4 44 12z" fill="#fff"/><path d="M44 12v44"/><path d="M14 20c8-2 16-1 24 3M14 30c8-2 16-1 24 3M50 23c8-4 16-5 24-3M50 33c8-4 16-5 24-3" stroke-width="1.5"/></svg>
-    <svg class="dc l" style="top:452px;height:50px" viewBox="0 0 88 50" fill="#b8923a"><path d="M22 4l4 10 11 .5-8.5 7 3 10.5L22 26l-9.5 6 3-10.5-8.5-7L18 14z"/><path d="M62 16l3 7.5 8 .4-6.3 5 2.2 7.7-6.9-4.4-6.9 4.4 2.2-7.7-6.3-5 8-.4z" opacity=".6"/></svg>
-    <svg class="dc r" style="top:230px;height:64px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.2"><circle cx="44" cy="30" r="26" fill="#fff"/><ellipse cx="44" cy="30" rx="11" ry="26"/><path d="M18 30h52M22 17h44M22 43h44"/><path d="M26 58h36M44 56v2"/></svg>
-    <svg class="dc r" style="top:344px;height:64px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.5"><path d="M18 54l4-14L62 6l14 12-40 34z" fill="#fff"/><path d="M22 40l14 12M56 12l14 12"/><path d="M18 54l4-14 10 8z" fill="#0f2547" stroke="none"/></svg>
-    <svg class="dc r" style="top:452px;height:64px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.2"><path d="M30 2l14 22 14-22" fill="#0f2547"/><circle cx="44" cy="40" r="18" fill="#fff"/><path d="M44 30l3.5 7 7.5 1-5.5 5.2 1.4 7.6-6.9-3.8-6.9 3.8 1.4-7.6-5.5-5.2 7.5-1z" fill="#b8923a" stroke="none"/></svg>
-    <svg class="corner c-tl" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></svg>
-    <svg class="corner c-tr" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></svg>
-    <svg class="corner c-bl" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></svg>
-    <svg class="corner c-br" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></svg>
+    <svg class="wm" width="470" height="470" viewBox="-100 -100 200 200" fill="none" stroke="rgba(15,37,71,.07)" stroke-width="1"><circle r="95"/><circle r="80"/><circle r="64" stroke-dasharray="2 4"/><path d="M0-60L14-18 58-18 22 8 36 50 0 24-36 50-22 8-58-18-14-18z" fill="rgba(184,146,58,.08)" stroke="none"/></svg>
+    <svg class="dc l" width="88" height="56" style="top:236px" viewBox="0 0 88 56" fill="none" stroke="#b8923a" stroke-width="2.5"><path d="M44 6L4 22l40 16 40-16z" fill="#0f2547"/><path d="M20 30v14c14 10 34 10 48 0V30" fill="#fff"/><path d="M82 24v20"/><circle cx="82" cy="47" r="3" fill="#b8923a"/></svg>
+    <svg class="dc l" width="88" height="64" style="top:344px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.5"><path d="M44 12C32 4 16 4 4 8v44c12-4 28-4 40 4 12-8 28-8 40-4V8C72 4 56 4 44 12z" fill="#fff"/><path d="M44 12v44"/><path d="M14 20c8-2 16-1 24 3M14 30c8-2 16-1 24 3M50 23c8-4 16-5 24-3M50 33c8-4 16-5 24-3" stroke-width="1.5"/></svg>
+    <svg class="dc l" width="88" height="50" style="top:452px" viewBox="0 0 88 50" fill="#b8923a"><path d="M22 4l4 10 11 .5-8.5 7 3 10.5L22 26l-9.5 6 3-10.5-8.5-7L18 14z"/><path d="M62 16l3 7.5 8 .4-6.3 5 2.2 7.7-6.9-4.4-6.9 4.4 2.2-7.7-6.3-5 8-.4z" opacity=".6"/></svg>
+    <svg class="dc r" width="88" height="64" style="top:230px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.2"><circle cx="44" cy="30" r="26" fill="#fff"/><ellipse cx="44" cy="30" rx="11" ry="26"/><path d="M18 30h52M22 17h44M22 43h44"/><path d="M26 58h36M44 56v2"/></svg>
+    <svg class="dc r" width="88" height="64" style="top:344px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.5"><path d="M18 54l4-14L62 6l14 12-40 34z" fill="#fff"/><path d="M22 40l14 12M56 12l14 12"/><path d="M18 54l4-14 10 8z" fill="#0f2547" stroke="none"/></svg>
+    <svg class="dc r" width="88" height="64" style="top:452px" viewBox="0 0 88 64" fill="none" stroke="#b8923a" stroke-width="2.2"><path d="M30 2l14 22 14-22" fill="#0f2547"/><circle cx="44" cy="40" r="18" fill="#fff"/><path d="M44 30l3.5 7 7.5 1-5.5 5.2 1.4 7.6-6.9-3.8-6.9 3.8 1.4-7.6-5.5-5.2 7.5-1z" fill="#b8923a" stroke="none"/></svg>
+    <svg class="corner c-tl" width="110" height="110" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></svg>
+    <svg class="corner c-tr" width="110" height="110" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><g transform="translate(110,0) scale(-1,1)"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></g></svg>
+    <svg class="corner c-bl" width="110" height="110" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><g transform="translate(0,110) scale(1,-1)"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></g></svg>
+    <svg class="corner c-br" width="110" height="110" viewBox="0 0 110 110" fill="none" stroke="#b8923a"><g transform="translate(110,110) scale(-1,-1)"><path d="M4 106V4h102" stroke-width="3"/><path d="M16 94V16h78" stroke-width="1.2"/><path d="M30 30l9 9-9 9-9-9z" fill="#b8923a" stroke="none"/></g></svg>
     <div class="content">
      <div class="label" data-f="title"></div>
      <div class="orn"><i></i><svg width="18" height="18" viewBox="-10 -10 20 20"><path id="st" d="M0-9L2.6-3 9-2.8 4-.9 5.6 7 0 3.4-5.6 7-4-.9-9-2.8-2.6-3z" fill="#b8923a"/></svg><i></i></div>
@@ -176,35 +176,61 @@ function render(){
 }
 function reset(){for(const k in ids)$(ids[k]).value=D[k];render();msg('')}
 function msg(t){$('status').textContent=t}
-Object.values(ids).forEach(id=>$(id).addEventListener('input',render));
+Object.values(ids).forEach(id=>{$(id).addEventListener('input',render);$(id).addEventListener('change',render)});
+(function(){const w=document.createElement('div');w.style.cssText='display:flex;gap:10px;flex-wrap:wrap;margin-top:10px';
+ ['#9b1c31','#0f2547','#0b6e4f','#1d4ed8','#6b21a8','#a8741a','#111111'].forEach(c=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Name color '+c);
+  b.style.cssText='width:44px;height:44px;min-height:44px;border-radius:50%;padding:0;border:2px solid var(--line);background:'+c;b.onclick=()=>{$('in-color').value=c;render()};w.appendChild(b)});
+ $('in-color').after(w)})();
 $('b-reset').onclick=reset;
 
 // responsive preview scaling
 function scale(){const w=$('fit').clientWidth,s=w/1123;$('scaler').style.transform=`scale(${s})`;$('fit').style.height=(794*s)+'px'}
 new ResizeObserver(scale).observe($('fit'));
 
+async function svgToImg(root){
+ await Promise.all([...root.querySelectorAll('svg')].map(async s=>{
+  const r=s.getBoundingClientRect(),w=Math.round(r.width),hh=Math.round(r.height);
+  s.setAttribute('xmlns','http://www.w3.org/2000/svg');s.setAttribute('width',w);s.setAttribute('height',hh);
+  const img=new Image();img.className=s.getAttribute('class')||'';img.style.cssText=s.getAttribute('style')||'';img.width=w;img.height=hh;
+  img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(new XMLSerializer().serializeToString(s));
+  try{await img.decode()}catch(e){}
+  s.replaceWith(img);
+ }));
+}
 async function capture(){
  await document.fonts.ready;
- await Promise.all(['700 20px Amiri','700 20px "Playfair Display"','italic 600 20px "Playfair Display"','900 20px "Playfair Display"','500 20px Montserrat'].map(f=>document.fonts.load(f,'Aa أ')));
- const stage=document.createElement('div');stage.style.cssText='position:fixed;left:-20000px;top:0;width:1123px;height:794px';
- const clone=cert.cloneNode(true);stage.appendChild(clone);document.body.appendChild(stage);
- fitName(clone);
- try{
-  const c=await html2canvas(clone,{scale:3508/1123,backgroundColor:'#ffffff',useCORS:true,logging:false,width:1123,height:794});
-  const out=document.createElement('canvas');out.width=3508;out.height=2480;
-  const g=out.getContext('2d');g.fillStyle='#fff';g.fillRect(0,0,3508,2480);g.drawImage(c,0,0,3508,2480);
-  return out;
- }finally{stage.remove()}
+ await Promise.all(['700 20px Amiri','700 20px "Playfair Display"','italic 600 20px "Playfair Display"','900 20px "Playfair Display"','500 20px Montserrat'].map(f=>document.fonts.load(f,'Aa أ'))).catch(()=>{});
+ let err;
+ for(const W of [3508,2480,1754]){
+  const stage=document.createElement('div');stage.style.cssText='position:fixed;left:-20000px;top:0;width:1123px;height:794px';
+  const clone=cert.cloneNode(true);stage.appendChild(clone);document.body.appendChild(stage);fitName(clone);
+  try{
+   await svgToImg(clone);
+   const c=await Promise.race([html2canvas(clone,{scale:W/1123,backgroundColor:'#ffffff',useCORS:true,logging:false,width:1123,height:794}),new Promise((_,r)=>setTimeout(()=>r(new Error('timeout')),45000))]);
+   const out=document.createElement('canvas');out.width=W;out.height=Math.round(W*210/297);
+   const g=out.getContext('2d');g.fillStyle='#fff';g.fillRect(0,0,out.width,out.height);g.drawImage(c,0,0,out.width,out.height);
+   return out;
+  }catch(e){err=e}finally{stage.remove()}
+ }
+ throw err;
 }
 function fname(ext){const n=$(ids.name).value.trim().replace(/[\\/:*?"<>|]+/g,'').replace(/\s+/g,'_');return`Certificate_${n}.${ext}`}
 async function run(btn,label,fn){
  if(!$(ids.name).value.trim()){msg('Please enter the student name first.');$(ids.name).focus();return}
  if(!window.html2canvas||(label==='PDF'&&!window.jspdf)){msg('Export tools could not load. Check your internet connection and reload the page.');return}
  const bs=[...document.querySelectorAll('button')];bs.forEach(b=>b.disabled=true);msg('Preparing '+label+'…');
- try{const u=await fn();$('status').innerHTML=label+' ready ✓ – if it did not save, <a href="'+u+'" target="_blank" rel="noopener" style="color:var(--gold);font-weight:600">tap here to open it</a>'}catch(e){console.error(e);msg('Sorry, export failed. Please try again.')}
+ try{const u=await fn();showDone(label,u)}catch(e){console.error(e);msg('Export failed ('+((e&&e.message)||e)+'). Please try again or reload the page.')}
  bs.forEach(b=>b.disabled=false);
 }
-async function save(blob,name){const url=URL.createObjectURL(blob);const touch=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&/Mac/.test(navigator.platform));try{const f=new File([blob],name,{type:blob.type});if(touch&&navigator.canShare&&navigator.canShare({files:[f]})){await navigator.share({files:[f],title:name});return url}}catch(e){if(e&&e.name==='AbortError')return url}const a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();return url}
+let LAST=null;
+function dl(){const u=URL.createObjectURL(LAST.blob);const a=document.createElement('a');a.href=u;a.download=LAST.name;document.body.appendChild(a);a.click();a.remove();return u}
+async function sh(){try{await navigator.share({files:[new File([LAST.blob],LAST.name,{type:LAST.blob.type})],title:LAST.name})}catch(e){if(!e||e.name!=='AbortError')dl()}}
+async function save(blob,name){LAST={blob,name};return dl()}
+function showDone(label,u){const s=$('status');s.textContent=label+' ready \u2713 ';
+ const mk=(t,f)=>{const b=document.createElement('button');b.type='button';b.textContent=t;b.className='sec';b.style.cssText='min-height:44px;margin:8px 8px 0 0';b.onclick=f;s.appendChild(b)};
+ mk('Save to device',dl);
+ try{if(navigator.canShare&&navigator.canShare({files:[new File([LAST.blob],LAST.name,{type:LAST.blob.type})]}))mk('Share',sh)}catch(e){}
+ const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.textContent='Open';a.style.cssText='color:var(--gold);font-weight:600';s.appendChild(a)}
 $('b-png').onclick=()=>run($('b-png'),'PNG',async()=>{
  const c=await capture();const b=await new Promise(r=>c.toBlob(r,'image/png'));return save(b,fname('png'))});
 $('b-pdf').onclick=()=>run($('b-pdf'),'PDF',async()=>{
